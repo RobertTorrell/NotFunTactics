@@ -1,0 +1,33 @@
+{
+  "name": "notfuntactics",
+  "version": "1.0.0",
+  "description": " An implementation of Tank Fun Tactics, the banned game designed by Halfbrick, as a Discord bot. Play, betray and @#*! your friends over the net! ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/bot.js",
+    "dev": "nodemon ./src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertTorrell/NotFunTactics.git"
+  },
+  "author": "Riibber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobertTorrell/NotFunTactics/issues"
+  },
+  "homepage": "https://github.com/RobertTorrell/NotFunTactics#readme",
+  "dependencies": {
+    "@discordjs/rest": "^0.2.0-canary.0",
+    "canvas": "^2.8.0",
+    "discord-api-types": "^0.26.0",
+    "discord.js": "^13.4.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "typescript": "^4.5.4"
+  }
+}
